@@ -3,13 +3,13 @@
   <nuxt-link :to="localePath({
     name: 'brandName-brandId',
     params: {
-      brandName: 'apple',
+      brandName: 'apple-&',
       brandId: 1
     }
   })" :style="{
     fontSize: '28px'
-  }">브랜드페이지로</nuxt-link>
-  <Tutorial/>
+  }">Click here for testing nuxt-i18n issue</nuxt-link>
+  <!-- <Tutorial/> -->
 </div>
 </template>
 
